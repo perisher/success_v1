@@ -4,7 +4,7 @@ public class Reservation {
 	
 	String id;
 	String date;
-	
+	/************************Bla bla bla***********************/
 	public Reservation (String identifiant, String dateReserv)
 	{
 		id = identifiant;
