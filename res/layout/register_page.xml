@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtGenre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre*" />
+
+    <Spinner
+        android:id="@+id/spinGenre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtPrenom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom*" />
+
+    <EditText
+        android:id="@+id/editPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtNom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom*" />
+
+    <EditText
+        android:id="@+id/editNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtDateNais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de naissance*" />
+
+    <Button
+        android:id="@+id/btnDateNais"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisir date" />
+
+    <TextView
+        android:id="@+id/txtMailRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail*" />
+
+    <EditText
+        android:id="@+id/editMailRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/txtCnfirmMail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmez votre e-mail" />
+
+    <EditText
+        android:id="@+id/editCnfirmMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/txtMdpRegistration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe" />
+
+    <EditText
+        android:id="@+id/editMdpRegistration"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtCnfirmMdp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmez votre mot de passe" />
+
+    <EditText
+        android:id="@+id/editCnfirmMdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtNumPerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permis de conduire N°" />
+
+    <EditText
+        android:id="@+id/editNumPerm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtDatePerm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Délivré le" />
+
+    <Button
+        android:id="@+id/btnDatePerm"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisir date" />
+
+    <TextView
+        android:id="@+id/txtAdress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse" />
+
+    <EditText
+        android:id="@+id/editAdress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/txtCodePost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code postal" />
+
+    <EditText
+        android:id="@+id/editCodePost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville" />
+
+    <EditText
+        android:id="@+id/editVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtPays"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <EditText
+        android:id="@+id/editPays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Téléphone" />
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnCreateCount"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Créer un compte" />
+
+</LinearLayout>
+</ScrollView>

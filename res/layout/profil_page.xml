@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="fill_parent"
+android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/txtGenreProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Genre*" />
+
+    <Spinner
+        android:id="@+id/spinGenreProfil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/txtPrenomProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prenom*" />
+
+    <EditText
+        android:id="@+id/editPrenomProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/txtNomProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nom*" />
+
+    <EditText
+        android:id="@+id/editNomProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txtDateNaisProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de naissance*" />
+
+    <Button
+        android:id="@+id/btnDateNaisProfil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisir date" />
+
+    <TextView
+        android:id="@+id/txtMailRegistrationProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E-mail*" />
+
+    <EditText
+        android:id="@+id/editMailRegistrationProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <TextView
+        android:id="@+id/txtMdpRegistrationProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mot de passe" />
+
+    <EditText
+        android:id="@+id/editMdpRegistrationProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtNumPermProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Permis de conduire N°" />
+
+    <EditText
+        android:id="@+id/editNumPermProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtDatePermProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Délivré le" />
+
+    <Button
+        android:id="@+id/btnDatePermProfil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisir date" />
+
+    <TextView
+        android:id="@+id/txtAdressProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adresse" />
+
+    <EditText
+        android:id="@+id/editAdressProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" />
+
+    <TextView
+        android:id="@+id/txtCodePostProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code postal" />
+
+    <EditText
+        android:id="@+id/editCodePostProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/txtVilleProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ville" />
+
+    <EditText
+        android:id="@+id/editVilleProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtPaysProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pays" />
+
+    <EditText
+        android:id="@+id/editPaysProfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/txtPhoneProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Téléphone" />
+
+    <EditText
+        android:id="@+id/editPhoneProfil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnEditCountProfil"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier mes informations" />
+
+</LinearLayout>
+</ScrollView>
