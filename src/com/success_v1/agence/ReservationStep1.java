@@ -34,6 +34,8 @@ public class ReservationStep1 extends Activity{
 	String nomAgence;
 	String date;
 	RadioGroup radioGroup;
+	
+	// Test1
 	private Button btnDateDepart;
 	private Button btnDateRetour;
 	private Button btnSearchCar;
